@@ -1,210 +1,23 @@
 body{
-    background-color: lightblue;
-    
-    
-    
-}
-
-
-.titulo{
-    
- height: 250px;
-    float: center;
-    font-family: Elephant;
-    font-size: 40px;
-    
-    
-}
-.bachi{
-    
-    float: center;
-    
-    color: black;
-    text-align: center;
-    align-content: center;
-    align-items: center;
-    font-family: Poetsen One;
-    font-size: 20px;
-    
-    
-}
-
-
-
-
-.contenedor{
-    width: 50%;
-    float: center;
-    margin-left: 25%;
-    margin-bottom: 10%;
-    
-    
-}
-
-.logo{
-    margin-left: 2%;
-    margin-right: 2%;
-    float: left;
+   
+	
+	background-color: lightblue; 
     
    
-    
-    
-}
-        
-.texto{
-    
-    text-align: center;
-    width: 30%;
-    height: 50%;
-    
-    
-       
-    }
-
-
-
-.imagenes{
-    
-   font-family: Elephant;
-    font-size: 15px;
- 
-
-}
-
-
-
-.temas{
-    
-    float: center;
-    align-content: center;
-    
-    background-color: antiquewhite;
-    
-    
-    
-}
-
-.card1{
-    
-      border: black 1px solid;
-    border-radius: 4px;
-    padding: 2%;
-    
-    
-    
-}
-
-.foto1{
-    float: left;
-    border-radius: 10px;
-    margin-top: 10%;
-    
-    
-    
-}
-
-
-.card{
-    display: flex;
-    float: center;
-    padding: 10px;
-    background-color: white;
-     align-content: center;
-   width: 250px;
-    box-shadow: 5px 5px 5px;
-transition: all 500ms ease;
-        
-    }
-
-.card:hover{
-    
-    box-shadow: 10px 10px 10px black;
-    transform: translateY(-3%)
-}
-
-
-.logo{
-    margin-left: 2%;
-    margin-right: 2%;
-    float: left;
-    
    
-    
-    
-}
-        
-.texto{
-    
-    text-align: center;
-    width: 30%;
-    height: 50%;
-    
-    
-       
-    }
-
-
-
-.imagenes{
-    
-   font-family: Elephant;
-    font-size: 15px;
- 
-
 }
 
-
-
-.temas{
-    
-    float: center;
-    align-content: center;
-    
-    background-color: antiquewhite;
-    
-    
-    
-}
-
-.card1{
-    
-      border: black 1px solid;
-    border-radius: 4px;
-    padding: 2%;
-    
-    
-    
-}
-
-.foto1{
-    float: left;
-    border-radius: 10px;
-    margin-top: 10%;
-    
-    
-    
-}
-
-
-.card{
+.contenido{
     display: flex;
-    float: center;
-    padding: 10px;
-    background-color: white;
-     align-content: center;
-   width: 250px;
-    box-shadow: 5px 5px 5px;
-transition: all 500ms ease;
-        
-    }
-
-.card:hover{
-    
-    box-shadow: 10px 10px 10px black;
-    transform: translateY(-3%)
+    align-content: center;
+    align-items:stretch;
+	
 }
 
 
+
+
+ 
 
 
 .navbar-brand{
@@ -216,15 +29,6 @@ font-family: Poetsen One;
     
     
 }
-
-.navbar{
-    height: 40px;
-    border-bottom: 1px black solid;
-    
-    
-    
-}
-
 .barra_navegacion{
     
     height: 60px;
@@ -284,13 +88,19 @@ font-family: Poetsen One;
     
     color: black;
     margin-left: 100px;
-
-  
+   
     
+    
+    
+}
+.navbar{
+    height: 40px;
+    border-bottom: 1px black solid;
 }
 
 .navbar-brand:hover{
     
+  
   color: black !important;
     transform: translateX(0.10em);
     border-radius: 5px;
@@ -298,13 +108,12 @@ font-family: Poetsen One;
 }
 .nav-link dropdown-toggle:hover{
     
-  
+    background-color: lightblue;
   color: black !important;
     transform: translateX(0.15em);
     border-radius: 5px;  
     margin: 20px;
 }
-
 .nav-item dropdown{
     background-color: lightblue;
   color: black !important;
@@ -331,6 +140,7 @@ font-family: Poetsen One;
     padding: 0;
     z-index: 1000;
     height: 100px;
+    
 
     
    
@@ -347,9 +157,59 @@ font-family: Poetsen One;
         
     }
 
+.contenedordecards{
+    margin-top: 130px;
+    margin-left: 18px;
+    font-family: Poetsen One, sans-serif;
+    
+    
+    
+    
+}
+.bachi{
+    font-size: 25px;
+    float: center;
+    background-color: gray;
+    color: black;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    
+    
+}
+
+.card{
+        width: 200px;
+    height: 200px;
+    margin: 15px;
+    padding: 30px;
+    align-content: center;
+    align-items: center;
+    border: 2px violet solid;
+    box-shadow: 3px 3px 3px violet;
+
+  
+    
+    
+    
+}
+
+
+
+
+
+.card-img-top{
+    
+    width: 80px;
+
+}
+
+
+
 
 #btn-mas{
     display: none;
+    
 
     
     
@@ -357,7 +217,7 @@ font-family: Poetsen One;
 .contenido_redes{
     position: fixed;
     bottom: 5px;
-    right: 20px;
+   right: -200px;
     
     
 }
@@ -406,26 +266,14 @@ font-family: Poetsen One;
     margin-bottom: 5px;
     align-content: center;
 }
-.carousel slide{
-    width: 80%;
-    height: 60%;
+.encabezado{
+    background-color: #6aa9e9;
+    text-align: center;
+    align-content: center;
+    font-size: 25px;
+    
+    
 }
-
-.carrusel1{
-    width: 80%;
-    height: 60%;
-}
-
-h5{
-    color: black;
-    font-family: Poetsen One;
-}
-
-.carrusel2{
-    width: 80%;
-    height: 60%;
-}
-
 footer{
     
     background-color: black;
@@ -435,7 +283,7 @@ footer{
     align-content: center;
     align-items: center;
     text-align: center;
-     font-family: Franklin Gothic Heavy;
+    
     
     
     
@@ -443,4 +291,4 @@ footer{
 
 
 
-   
+
