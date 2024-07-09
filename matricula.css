@@ -1,0 +1,345 @@
+body{
+    
+    background-color: lightblue;
+}
+
+
+.cuerpo{
+        background-color: white;
+
+    border-radius: 10px;
+    padding: 3%;
+    border: solid gray 3px ;
+    height: 60%;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    
+    
+}
+
+.title{
+    font-family: Franklin Gothic Heavy;
+    font-size: 30px;
+    background-color: deepskyblue;
+    
+    
+    
+}
+
+
+        
+.texto{
+    
+    text-align: center;
+    width: 30%;
+    height: 50%;
+    
+    
+       
+    }
+
+
+
+.imagenes{
+    
+   font-family: Elephant;
+    font-size: 15px;
+ 
+
+}
+
+
+
+.temas{
+    
+    float: center;
+    align-content: center;
+    
+    background-color: antiquewhite;
+    
+    
+    
+}
+
+.card1{
+    margin-top: 20%;
+    
+      border: black 1px solid;
+    border-radius: 4px;
+    padding: 2%;
+    
+    
+    
+}
+
+.foto1{
+    float: left;
+    border-radius: 10px;
+    margin-top: 10%;
+    
+    
+    
+}
+
+
+.card{
+    display: flex;
+    float: center;
+    padding: 10px;
+    background-color: white;
+     align-content: center;
+   width: 250px;
+    box-shadow: 5px 5px 5px;
+transition: all 500ms ease;
+        
+    }
+
+.card:hover{
+    
+    box-shadow: 10px 10px 10px black;
+    transform: translateY(-3%)
+}
+
+
+
+
+.navbar-brand{
+    
+    margin-left: 33%;
+    float: right;
+font-family: Poetsen One;
+    
+    
+    
+}
+
+.navbar{
+    height: 40px;
+    border-bottom: 1px black solid;
+    
+    
+    
+}
+
+.barra_navegacion{
+    
+    height: 60px;
+}
+
+.navbar1{
+    background-color: #6aa9e9;
+    
+    color: black;
+    height: 80px;
+    margin-bottom: 1px;
+   
+   
+}
+
+.izquierda{
+    margin-left: 50px;
+}
+.derecha{
+    float: right;
+    margin-right: 50px;
+    
+    
+    
+}
+
+
+.derecha1{
+    margin-left: 30px;
+    margin-top: 15px;
+    width: 30px;
+    cursor: pointer;
+    
+    
+    
+    
+}
+.logo{
+    width: 80px;
+   
+    
+}
+.instituto{
+    margin-left: 5%;
+    
+    
+    
+}
+
+
+.navbar-brand{
+  justify-content: center;
+     
+    font-family: Poetsen One;
+    
+    transition: all 500ms ease;
+    
+    color: black;
+    margin-left: 100px;
+
+  
+    
+}
+
+.navbar-brand:hover{
+    
+  color: black !important;
+    transform: translateX(0.10em);
+    border-radius: 5px;
+    
+}
+.nav-link dropdown-toggle:hover{
+    
+  
+  color: black !important;
+    transform: translateX(0.15em);
+    border-radius: 5px;  
+    margin: 20px;
+}
+
+.nav-item dropdown{
+    
+  color: black !important;
+    transform: translateX(0.10em);
+    border-radius: 5px;
+    
+    
+}
+
+.inst{
+   
+    font-family: Poetsen One;
+    margin-left: 60px;
+    
+}
+.container-fluid{
+   
+   
+    font-family: Franklin Gothic Heavy;
+ 
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    padding: 0;
+    z-index: 1000;
+    height: 100px;
+
+    
+   
+    
+    
+}
+
+.logo{
+    margin-left: 2%;
+    margin-right: 2%;
+    float: left;
+    
+   
+        
+    }
+.logotipo{
+    
+    float: left;
+    width: 125px;
+}
+
+
+
+
+
+.titulo{
+    
+    color: brown;
+    font-family: Poetsen One;
+    font-size: 20px;
+    
+    
+    
+}
+
+.lista{
+    font-family: Poetsen One;
+    font-size: 17px;
+    
+    
+    
+    
+}
+.mapa{
+   
+    float: center;
+    text-align: center;
+    align-content: center;
+    align-self: center;
+    margin-bottom: 5%;
+    
+    
+    
+    
+}
+
+#btn-mas{
+    display: none;
+
+    
+    
+}
+.contenido_redes{
+    position: fixed;
+    bottom: 5px;
+    right: 20px;
+    
+    
+}
+.redes a, .btn-mas label{
+    display: block;
+    text-decoration: none;
+    background-color: deepskyblue;
+    color: #fff;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.4);
+    transition: all 500ms ease;
+    
+    
+}
+.redes a:hover{
+    
+    background-color: none;
+    
+}
+.redes a{
+    
+    opacity: 0;
+    visibility: hidden;
+}
+#btn-mas:checked~ .redes a{
+    margin-bottom: 10px;
+    
+    opacity: 1;
+    visibility: visible;
+    
+}
+.btn-mas label{
+    cursor: pointer;
+   margin-bottom: 10px;
+    
+}
+
+
+.iconos_redes{
+  width: 100%;
+    
+    margin-bottom: 5px;
+    align-content: center;
+}
+
